@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tastescape</title>
+    <link rel="icon" href="./logoimage.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="section1">
+        <div>
+            <img src="./logo.png" alt="logo" id="logoimg">
+            <a href="index.html" id="logo">Tastescape</a>
+        </div>
+        <div id="tagline">
+            <h1>Foodventures <br> Await !!!</h1>
+        </div>
+        <div id="getstarted">
+            <a href="#section2" id="getbtn">Get Started</a>
+        </div>
+        <footer id="footer">
+            <h1>Made by Shreya</h1>
+        </footer>
+    </section>
+
+    <section id="section2" style="color: aliceblue;">
+        <div id="about">
+            <h1>ABOUT US:</h1>
+            <h2>"Daily Dish Discovery: Never ask 'what's for dinner' again! Explore a world of flavors with our website, offering spontaneous and delicious food suggestions to make your daily cooking decisions a breeze."</h2>
+        </div>
+
+        <div id="inputdiv">
+            <input type="text" id="inputbox" placeholder="Search a catagory">
+        </div>
+        
+        <div id="random-meal">
+            <img src="https://handletheheat.com/wp-content/uploads/2013/04/red-velvet-cake-recipe-SQUARE.jpg">
+            <h2 id="random-meal-name">"Red velvet cake"</h2>
+        </div>
+
+        <div id="line"></div>
+
+        <!-- List of Searched Meal Categories Section (Initially hidden) -->
+        <div id="search-results" >
+            <h1>Search Results:</h1>
+            <!-- Display the list of searched meal categories here -->
+            <ul id="category-list">
+                <!-- Categories will be dynamically added here using JavaScript -->
+            </ul>
+        </div>
+
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <h2 id="modal-title"></h2>
+                <ul id="ingredients-list"></ul>
+            </div>
+        </div>
+        
+        
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+

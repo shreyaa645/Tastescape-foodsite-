@@ -1,0 +1,347 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  /* Background Image */
+  background-image: url("https://images.unsplash.com/photo-1534273006427-1686266049b7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+}
+
+/* Global Styles */
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+/* Header Section Styles */
+#section1 {
+  background-image: url("https://images.unsplash.com/photo-1534273006427-1686266049b7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  height: 730px;
+}
+
+/* Main Content Section Styles */
+#section2 {
+  background-image: url("https://images.unsplash.com/photo-1506159904226-d6cfd457c30c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  height: 730px;
+  margin: 0%;
+  padding: 10px;
+}
+
+/* Tagline Styles */
+#tagline {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: hwb(240 5% 67%);
+  padding-top: 10%;
+  font-size: 50px;
+  padding-left: 75px;
+}
+
+/* "Get Started" Button Styles */
+#getbtn {
+  background-color: hwb(240 5% 67%);
+  padding: 30px;
+  border-radius: 100px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(215, 179, 135);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 70px;
+  padding-inline: 100px;
+  position: absolute;
+  border: 3px rgb(215, 179, 135) solid;
+}
+
+/* Hover Styles for "Get Started" Button */
+#getbtn:hover {
+  background-color: rgb(215, 179, 135);
+  color: hwb(240 5% 67%);
+}
+
+/* Logo Image Styles */
+#logoimg {
+  height: 100px;
+  position: relative;
+}
+
+/* Logo Text Styles */
+#logo {
+  font-size: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: hwb(240 5% 67%);
+  text-decoration: overline;
+  margin-top: 33px;
+  margin-left: -30px;
+  position: absolute;
+}
+
+/* Animation for Tagline */
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* Apply Animation to Tagline */
+#tagline {
+  animation: slideInLeft 1s ease-in-out;
+}
+
+/* Input Box Styles */
+#inputdiv {
+  display: flex;
+  justify-content: center;
+}
+
+/* Search Input Styles */
+input {
+  height: 30px;
+  border: 0;
+  background-color: rgb(215, 179, 135);
+  border-radius: 15px;
+  box-shadow: 0 5px rgba(6, 33, 56, 0.7);
+  text-align: center;
+  padding-inline: 80px;
+}
+
+/* Placeholder Styles for Search Input */
+input::placeholder {
+  color: black;
+}
+
+/* Footer Styles */
+#footer {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 200px;
+  margin-inline: 0%;
+  color: rgb(215, 179, 135);
+  background-color: rgba(6, 33, 56, 0.7);
+  height: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+}
+
+/* About Section Styles */
+#about {
+  background-color: rgba(6, 33, 56, 0.7);
+  text-align: center;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(215, 179, 135);
+  border: 1px rgb(215, 179, 135) solid;
+}
+
+/* Random Meal Display Styles */
+#random-meal {
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(215, 179, 135);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-shadow: 0 1px white;
+}
+
+/* Styles for Random Meal Image */
+#random-meal img {
+  max-width: 15%;
+  border-radius: 15px;
+  border: 3px rgb(215, 179, 135) solid;
+}
+
+/* Styles for Random Meal Name */
+#random-meal-name {
+  background-color: rgba(6, 33, 56);
+  padding: 5px;
+  width: auto;
+  margin-top: 2px;
+  border-radius: 20px;
+  border: 1px rgb(215, 179, 135) solid;
+}
+
+/* Line Separator Styles */
+#line {
+  background-color: rgb(215, 179, 135);
+  height: 1px;
+  margin-top: 5px;
+}
+
+/* Search Results Section Styles */
+#search-results {
+  text-align: center;
+  color: rgb(215, 179, 135);
+}
+
+/* Category List Styles */
+#category-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+/* Styles for Each Category Card */
+#category-list li {
+  margin-right: 10px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 150px;
+  flex-shrink: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Styles for Category Card Image */
+#category-list img {
+  max-width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* Styles for Category Card Title */
+#category-list h2 {
+  font-size: 16px;
+  color: rgba(6, 33, 56);
+  margin-top: 10px;
+  padding: 10px;
+}
+
+/* Modal Styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Modal Content Styles */
+.modal-content {
+  background-color: rgb(215, 179, 135);
+  color: black;
+  margin: 5% auto;
+  padding: 50px;
+  border: 1px solid #888;
+  border-radius: 30px;
+  width: 25%;
+  animation: slideInUp 0.5s ease-in-out;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Keyframe Animation for Modal Content */
+@keyframes slideInUp {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Styles for Small Screens */
+@media only screen and (max-width: 600px) {
+  #tagline {
+    font-size: 35px;
+    margin-inline: 10%;
+  }
+
+  #section1 {
+    height: 1200px;
+  }
+
+  #section2 {
+    height: fit-content;
+  }
+
+  #getbtn {
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 40%;
+    width: 80%;
+    max-width: 200px;
+    text-align: center;
+    margin-inline: 35%;
+  }
+
+  #logoimg {
+    height: 30px;
+  }
+
+  #logo {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+
+  #footer {
+    margin-top: 70%;
+  }
+
+  #tagline,
+  #about,
+  #inputdiv,
+  #random-meal,
+  #line,
+  #search-results,
+  #category-list,
+  .modal-content {
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    margin-inline: 20%;
+  }
+
+  #inputbox {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  #random-meal img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+
+  #random-meal-name {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  #search-results {
+    padding: 10px;
+  }
+
+  #category-list li {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .modal-content {
+    width: 80%;
+    max-width: 200px;
+    padding: 20px;
+  }
+}
