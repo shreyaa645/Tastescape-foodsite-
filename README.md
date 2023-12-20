@@ -7,7 +7,7 @@ Welcome to Tastescape, a web application that helps you discover new and excitin
 
 Watch this video to get a quick overview of Tastescape'sdesign and functionalities.
 
-## Deployed Link-
+## Deployed Link- https://shreyaa645.github.io/Tastescape-foodsite-/
 
 ## Features
 
